@@ -74,3 +74,48 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
+/* RESPONSIVE DESIGN */
+@media all and (min-width: 1250px) {
+  .stats-card-component {
+    display: flex;
+    height: 446px;
+    width: 1110px;
+  }
+
+  .stats-card-image {
+    height: 100%;
+    width: 540px;
+    order: 1;
+  }
+
+  .stats-card-info {
+    height: 100%;
+    width: 570px;
+    align-items: normal;
+    text-align: initial;
+    padding-left: 73px;
+  }
+
+  .stats-card-slogan {
+    width: 450px;
+    font: 700 35px Inter, sans-serif;
+    line-height: 1.25;
+    margin-top: 72px;
+    margin-bottom: 25px;
+  }
+
+  .stats-card-slogan span {
+    margin-right: 6px;
+  }
+
+  .stats-card-description {
+    width: 350px;
+    margin-bottom: 72px;
+  }
+
+  .stats-card-stats {
+    display: flex;
+    gap: 63px;
+  }
+}

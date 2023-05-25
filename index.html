@@ -30,10 +30,16 @@
     <main class="stats-card-component">
       <div class="stats-card-image">
         <div class="image-color-overlay"></div>
-        <img
-          src="./assets/images/image-header-mobile.jpg"
-          alt="Three young women at work in an office, programming and smiling."
-        />
+        <picture>
+          <source
+            media="(min-width: 1250px)"
+            srcset="./assets/images/image-header-desktop.jpg"
+          />
+          <img
+            src="./assets/images/image-header-mobile.jpg"
+            alt="Three young women at work in an office, programming and smiling."
+          />
+        </picture>
       </div>
 
       <div class="stats-card-info">
